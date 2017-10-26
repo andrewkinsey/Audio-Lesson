@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C89A23EE1FA0FD7B00385D3B /* marbles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C89A23ED1FA0FD7B00385D3B /* marbles.mp3 */; };
 		C8F319B71F912F79000578EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F319B61F912F79000578EF /* AppDelegate.swift */; };
 		C8F319B91F912F79000578EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F319B81F912F79000578EF /* ViewController.swift */; };
 		C8F319BC1F912F79000578EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F319BA1F912F79000578EF /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		C8F319C11F912F79000578EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F319BF1F912F79000578EF /* LaunchScreen.storyboard */; };
 		C8F319CC1F912F7A000578EF /* audioPractice_Take_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F319CB1F912F7A000578EF /* audioPractice_Take_2Tests.swift */; };
 		C8F319D71F912F7A000578EF /* audioPractice_Take_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F319D61F912F7A000578EF /* audioPractice_Take_2UITests.swift */; };
+		C8F319E51F9502BE000578EF /* mozartSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8F319E41F912FF3000578EF /* mozartSong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C89A23ED1FA0FD7B00385D3B /* marbles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marbles.mp3; path = "../../../../../Music/iTunes/iTunes Media/Music/SoundBible.com Must Credit/Unknown Album/marbles.mp3"; sourceTree = "<group>"; };
 		C8F319B31F912F79000578EF /* audioPractice Take 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "audioPractice Take 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F319B61F912F79000578EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F319B81F912F79000578EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		C8F319D21F912F7A000578EF /* audioPractice Take 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audioPractice Take 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F319D61F912F7A000578EF /* audioPractice_Take_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPractice_Take_2UITests.swift; sourceTree = "<group>"; };
 		C8F319D81F912F7A000578EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F319E41F912FF3000578EF /* mozartSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mozartSong.mp3; path = ../../mozartSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				C8F319B81F912F79000578EF /* ViewController.swift */,
 				C8F319BA1F912F79000578EF /* Main.storyboard */,
 				C8F319BD1F912F79000578EF /* Assets.xcassets */,
+				C8F319E41F912FF3000578EF /* mozartSong.mp3 */,
+				C89A23ED1FA0FD7B00385D3B /* marbles.mp3 */,
 				C8F319BF1F912F79000578EF /* LaunchScreen.storyboard */,
 				C8F319C21F912F79000578EF /* Info.plist */,
 			);
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F319E51F9502BE000578EF /* mozartSong.mp3 in Resources */,
 				C8F319C11F912F79000578EF /* LaunchScreen.storyboard in Resources */,
 				C8F319BE1F912F79000578EF /* Assets.xcassets in Resources */,
+				C89A23EE1FA0FD7B00385D3B /* marbles.mp3 in Resources */,
 				C8F319BC1F912F79000578EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
